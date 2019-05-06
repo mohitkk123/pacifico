@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewsDetail"
+    android:orientation="vertical"
+    android:background="@drawable/colorgrad_home">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewP">
+
+
+
+    </android.support.v4.view.ViewPager>
+
+  <!--  <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+
+        android:id="@+id/tool1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pacifico"
+            android:textColor="#fff"
+            android:fontFamily="@font/pacifico"
+            android:paddingTop="5dp"
+
+            android:textSize="25sp"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/imgdetail"
+        android:layout_width="427dp"
+
+
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="sample text"
+        android:textSize="10sp"
+        android:fontFamily="@font/josefin_regular"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="#fff"
+        android:id="@+id/sourcedetail"
+        android:gravity="right"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="sample text"
+        android:fontFamily="@font/josefin_bold"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#fff"
+        android:id="@+id/titledetail"
+         />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="sample text"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:fontFamily="@font/josefin_regular"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textdetail"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    -->
+
+</LinearLayout>

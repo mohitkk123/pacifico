@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45866551523",
+    "firebase_url": "https://pacifico-9531d.firebaseio.com",
+    "project_id": "pacifico-9531d",
+    "storage_bucket": "pacifico-9531d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45866551523:android:0f9b3749b4412413",
+        "android_client_info": {
+          "package_name": "com.example.pro226design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45866551523-05jav3k6k9nrf0uiu0acicjhq6d2k0mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pro226design",
+            "certificate_hash": "57ecd2b2843805afead8cd9170140dd2011476ee"
+          }
+        },
+        {
+          "client_id": "45866551523-p9lj79v5mvlga6e7mov6pcratukpli89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdmZZkJMi-Y2Dn2EC7S6lem2XAwSgZgGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45866551523-p9lj79v5mvlga6e7mov6pcratukpli89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

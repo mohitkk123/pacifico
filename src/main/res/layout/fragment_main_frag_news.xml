@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.main_fragNews">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.NewsDetail"
+        android:orientation="vertical"
+        android:background="@drawable/colorgrad_home">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+
+            android:id="@+id/tool1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pacifico"
+                android:textColor="#fff"
+                android:fontFamily="@font/pacifico"
+                android:paddingTop="5dp"
+
+                android:textSize="25sp"/>
+
+
+        </android.support.v7.widget.Toolbar>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/linear_radius_main_news">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="15sp">
+        <ImageView
+            android:id="@+id/imgdetail"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop" />
+
+</android.support.v7.widget.CardView>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sample text"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/josefin_regular"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:textColor="#fff"
+                    android:id="@+id/sourcedetail"
+                    android:gravity="right"/>
+
+                <LinearLayout
+                    android:background="@drawable/linear_radius"
+                    android:layout_width="51dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="40dp"
+
+
+                    android:orientation="horizontal">
+                    <ToggleButton
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@drawable/button_like"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:id="@+id/likeArticle"
+
+                        />
+
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="sample text"
+                    android:fontFamily="@font/josefin_bold"
+                    android:textSize="15sp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:id="@+id/titledetail"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="sample text"
+                    android:textSize="15sp"
+
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:fontFamily="@font/josefin_regular"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textdetail"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#B02E0C"
+                     android:layout_marginLeft="17dp"
+
+                    android:background="@drawable/swipe_left_textview"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/josefin_semi_bold_italic"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Swipe left to read full Article"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginRight="17dp"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+       </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
